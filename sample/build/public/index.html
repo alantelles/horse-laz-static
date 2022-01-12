@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>LazStatic Sample App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>This is a static HTML page</h1>
+            <img class="logo" src="/static/img/logo.png" title="This is an image" alt="LazStatic">
+        </div>
+        <div class="content">
+            <p>All elements in this page are static. All of them are being served by LazStatic through a Horse application. You can inspect page and Ctrl+Click at files described in <em>link</em> or <em>script</em> tags from head and see the files being loaded in inspector window.</p>
+            <p>You can also check the <em>network</em> tab of inspector where you will see the responses 200 and the mime type correctly set in every response.</p>
+            <p class="center">
+                <button class="btn" id="alert-trigger">Now click me and see an alert! =)</button>
+            </p>
+            <p class="center">Brought to you by <a target="_blank" href="https://github.com/alantelles">AlanTellesDev</a></p>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
